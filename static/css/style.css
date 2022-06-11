@@ -1,0 +1,24 @@
+body {
+
+    color: #ffffff;
+    background-color:#000000;
+}
+
+.jumbotron {
+
+    background-image: url("../images/bacteria.jpg");
+    background-size: 25% 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.panel-primary {
+    border-color: #895983;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
+}
+
